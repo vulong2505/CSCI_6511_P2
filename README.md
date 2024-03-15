@@ -2,7 +2,11 @@
 Solving Tile Placement with CSP
 
 # Instructions to Run
-Run src/main.py
+1) Run src/main.py
+2) The program will first ask for the location of the input text file for the puzzle. You may use the three input files (input1.txt, input2.txt, input3.txt) or create your own. You may find the data input files in data/inputs or if you may create your own data/generated folder.
+- In the command line, it will ask ```Enter data folder:```, referring to either the data/inputs folder or the data/generated folder if you have generated files. You may enter either "inputs" or "generated". 
+- Then, the command line will ask ```Enter file name:```, referring to the input text file name, e.g. input1.txt.
+3) After providing the input text file, the program will ask ```Enter # of threads (1 thread is the same as running non-parallel):```. Default is 1 for running one instance of the CSP solver. If your computer is able, running multiple threads equal to the cores you have may speed up performance by increasing the chance the CSP solver finds a valid solution.
 
 # Problem Description
 **Given**
